@@ -1,0 +1,81 @@
+
+.countries{
+    padding: 80px 0;
+    min-height: 100vh;
+}
+.MuiPaper-root{
+    cursor: pointer;
+}
+.country-details{
+    min-height: 100vh;
+    color: #fff;
+    padding: 100px 0;
+}
+.country-details span{
+    display: inline;
+}
+ p span{
+    font-weight: 600 !important;
+}
+.search{
+    padding: 70px 0;
+    min-height: 100vh;
+}
+.search .text-feild{
+    /* padding:12px 60px; */
+    width: 98%;
+    padding: 5px 15px 5px 60px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #2b3945;
+    border: transparent;
+    outline: none;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.search .text-feild::placeholder{
+    color: #fff;
+}
+.field{
+    position: relative;
+}
+.field .icon{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width:  28px;
+}
+.css-46bh2p-MuiCardContent-root:last-child {
+    background-color: #2b3945 !important;
+    color: #fff !important;
+}
+.MuiTypography-root{
+    color: #fff !important;
+}
+.css-h93ljk-MuiTypography-root{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+.btns {
+    padding: 8px 45px !important;
+    background-color: #2b3945 !important;
+    color: #fff;
+    border: 1px solid #2b3945;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 40px;
+}
+.btns:hover{
+    opacity: 0.8;
+}
+.css-1qw96cp{
+    background-color: #2b3945;
+}
+.d-flex.bord{
+    align-items: center;
+}
+.list-unstyled li{
+    padding-right: 10px;
+}

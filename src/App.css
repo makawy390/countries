@@ -1,0 +1,38 @@
+:root {
+  --element-background : #2b3945;
+  --text-color : #fff;
+  --background : #202c37;
+
+}
+nav{
+  background-color: var(--element-background) ;
+}
+li{
+  padding-top: 15px;
+  cursor: pointer;
+}
+.app{
+  background-color: var(--background);
+}
+
+nav .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  display: flex !important;
+  align-items: center !important;
+  align-content: space-around;
+  width: 100%;
+  justify-content: space-between;
+  color: #eee;
+
+}
+nav .list-unstyled li a{
+font-weight: 600;
+color: var(--text-color) !important;
+font-weight: 600;
+}
+
+nav .list-unstyled li a.active{
+  color: #4db6ac !important;
+
+}
